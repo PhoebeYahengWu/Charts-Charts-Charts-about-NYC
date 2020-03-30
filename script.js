@@ -181,3 +181,33 @@ let chart4 = new Chart(myChart4, {
         }
     }
 });
+
+
+
+
+
+
+let labels5 = ['0-4','15-19','20-24','25-29','30-34','35-39','40-44','45-49','50-54','55-59','60-64','65-69','70-74','75-79','80-84','85+'];
+let data5 = [545778, 492532, 606203, 763956, 743916, 649594, 569628, 517668, 520597, 501239, 464187, 380864, 304072, 210236, 139658, 142385];
+let colors5 = ['#7E9996','#7E9996','#7E9996','#35605A','#35605A','#35605A','#7E9996','#7E9996','#7E9996','#7E9996','#7E9996','#7E9996','#7E9996','#7E9996','#7E9996','#7E9996']
+let myChart5 = document.getElementById("myChart5").getContext('2d');
+
+let chart5 = new Chart(myChart5, { 
+    type: 'horizontalBar',
+    data: {
+        labels: labels5,
+        datasets: [{
+            data: data5,
+            backgroundColor: colors5
+        }]
+    },
+    options: {
+        title: {
+            text: "New York City Total Population By Age Groups in 2020",
+            display: true
+        },
+        legend: {
+            display: false
+         }
+    }
+});
