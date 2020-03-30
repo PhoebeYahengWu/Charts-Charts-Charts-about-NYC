@@ -108,7 +108,7 @@ let chart3 = new Chart(myChart3, {
     data:  Data,
     options: {
         title: {
-            text: "New York City Population Trend by Borough",
+            text: "How Has the Population in Five Boroughs of New York City Changed Over Time?",
             display: true
         }
     }
