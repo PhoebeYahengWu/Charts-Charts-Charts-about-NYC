@@ -38,7 +38,7 @@ let chart2 = new Chart(myChart2, {
     },
     options: {
         title: {
-            text: "NYC lost 10% in population between 1970-1980",
+            text: "NYC lost 10% in population between 1970-1980 due to the largest exodus in New York's history",
             display: true
         },
         legend: {
