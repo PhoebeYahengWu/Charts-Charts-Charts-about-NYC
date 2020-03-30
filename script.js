@@ -38,7 +38,7 @@ let chart2 = new Chart(myChart2, {
     },
     options: {
         title: {
-            text: "New York City Total Population by Decade",
+            text: "NYC lost 10% in population between 1970-1980",
             display: true
         },
         legend: {
