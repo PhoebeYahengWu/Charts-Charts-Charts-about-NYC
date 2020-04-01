@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
    
     <title>Charts about NYC</title>
 </head>
@@ -11,60 +12,22 @@
     <h4 class="text-center pt-2">NYC Population Charts</h4>
     <p class="text-center">Data Source: <a href="https://data.cityofnewyork.us/City-Government/New-York-City-Population-by-Borough-1950-2040/xywu-7bv9">NYC Open Data</a></p>
 
-<div class="container">
-
-
-
-    <div class="row justify-content-center">
-        <div class="col-md-7 pb-3">
-            <div class="card" style="width: 100%;">
-                <img src="https://cdn.glitch.com/27911338-ce21-4c5e-8227-daa298f2e3ec%2FNewYork_img1.jpg?v=1585695779790" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Today, New York is the most populous U.S. city and many people are attracted to live in the city for its prosperity, energy and diversity. But can you believe there was a point in the city's history when a million people fled New York? </p>
-                </div>
-              </div>
-        </div> 
+    <div class="post-body">
+        <span class='right'><i class='fa fa-clock-o'></i> <span class='eta'></span></span>
+        <p>Today, New York is the most populous U.S. city and many people are attracted to live in the city for its prosperity, energy and diversity. But can you believe there was a point in the city's history when a million people fled New York? </p>
+        <br/>
+        <div class="separator"><span class="dua"><img alt="" src="https://cdn.glitch.com/27911338-ce21-4c5e-8227-daa298f2e3ec%2FNewYork_img1.jpg?v=1585695779790" style="border: none;" title=""></span></div>
+        <p>According to the census bureau's report, New York city's population decreased about 10 percent from 1970 to 1980, and this downturn took the city 20 years to recoup. As we can see from the bar chart below, the city’s population slumped sharply from 1970 to 1980. </p>
+        <div class="separator tiga"> <canvas id="myChart2"></canvas> </div>
+        <p>So, what exactly caused this huge plunge in the city’s population? The short answer is the 1970s recession. However, New York was hit particularly hard and almost went bankrupt in 1975. Because of the economic downfall, many factories had massive layoffs and several big corporations moved their headquarters to the suburbs. At the same time, the city had to cut back the budget, therefore severely reducing sanitation services and the number of police, which led to piled garbage and high crime rates in many neighborhoods. As a result, many in the middle class left NYC, moving to the suburbs for safer and stable environment. </p>
+        <div class="separator lima"><span class="dua"><img alt="" src="https://cdn.glitch.com/27911338-ce21-4c5e-8227-daa298f2e3ec%2FNewYork_img2.jpg?v=1585699317715" style="border: none;" title=""></span></div>
+       <p>The suburbanization may also be reflected through the borough breakdown of the New York City population. As we can see from the line chart below, the populations in the four boroughs were all declining between 1970 and 1980, except for Staten Island, which is largely suburban in form and showed steady climb. </p>
+        <div class="separator enam"> <canvas id="myChart3"></canvas></div>
+        <p>Today, Brooklyn continues to be the most heavily populated borough in New York as we can see from the pie chart below, followed by Queens. Manhattan ranks at third, with the Bronx coming in fourth. Staten Island is the last, with the population more than doubling since 1950.  </p>
+        <div class="separator enam">    <canvas id="myChart1"></canvas></div>
     </div>
 
-<div class="row justify-content-center">
-    <div class="col-md-7 pb-3">
-        <div class="card" style="width: 100%;">
-            <div class="card-body">
-                <p class="card-text">According to the census bureau's report, New York city's population decreased about 10 percent from 1970 to 1980, and this downturn took the city 20 years to recoup. As we can see from the bar chart below, the city’s population slumped sharply from 1970 to 1980.</p>
-              </div>
-         <canvas id="myChart2"></canvas>  
-         
-        </div> 
-    </div> 
-</div>
-
-<div class="row justify-content-center">
-    <div class="col-md-7 pb-3">
-        <div class="card" style="width: 100%;">
-            <div class="card-body">
-                <p class="card-text">So, what exactly caused this huge plunge in the city’s population? The short answer is the 1970s recession. However, New York was hit particularly hard and almost went bankrupt in 1975. Because of the economic downfall, many factories had massive layoffs and several big corporations moved their headquarters to the suburbs. At the same time, the city had to cut back the budget, therefore severely reducing sanitation services and the number of police, which led to piled garbage and high crime rates in many neighborhoods. As a result, many in the middle class left NYC, moving to the suburbs for safer and stable environment. The suburbanization may also be reflected through the borough breakdown of the New York City population. As we can see from the line chart below, the populations in the four boroughs were all declining between 1970 and 1980, except for Staten Island, which is largely suburban in form and showed steady climb. </p>
-              </div>
-
-            <canvas id="myChart3"></canvas>
-        </div>
-    </div>
-</div>
-
-<div class="row justify-content-center">
-    <div class="col-md-7 pb-3">
-        <div class="card" style="width: 100%;">
-            <div class="card-body">
-                <p class="card-text">Today, Brooklyn continues to be the most heavily populated borough in New York, followed by Queens. Manhattan ranks at third, with the Bronx coming in fourth. Staten Island is the last, with the population more than doubling since 1950.  </p>
-              </div>
-    <canvas id="myChart1"></canvas>
-        </div>
-    </div>
-</div>
-
-</div>
-
-
-
+ 
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
   
