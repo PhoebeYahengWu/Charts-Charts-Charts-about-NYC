@@ -13,8 +13,8 @@ body {
 
 .post-body {
   background: #fff;
-  max-width: 720px;
-  margin: 5% auto;
+  max-width: 750px;
+  margin: 1% auto;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -22,7 +22,7 @@ body {
 }
 
 .post-body p {
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 .post-body img {
@@ -32,15 +32,12 @@ body {
   border: 0;
 }
 
-
-
 .separator {
   position: relative;
   clear: both;
   text-align: center;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 10px auto;
   overflow: hidden;
-  transition: all .6s ease;
 }
 
 
