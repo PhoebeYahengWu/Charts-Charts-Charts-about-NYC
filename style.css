@@ -1,13 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
 body {
   background: #EDF0F4;
-  font-size: 1.1em;
   font-family: 'Oxygen', sans-serif;
   padding: 0;
   margin: 0;
-  color: #999;
-  text-align: left;
+  color: #212529;
   line-height: 1.5;
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .post-body {
@@ -42,23 +43,6 @@ body {
   transition: all .6s ease;
 }
 
-.separator:before,
-.separator.tiga:before,
-.separator.empat:before,
-.separator.lima:before,
-.separator.enam:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: #e67e22;
-  z-index: 2;
-  opacity: 0;
-  visibility: hidden;
-  transition: all .6s ease;
-}
 
 
 
