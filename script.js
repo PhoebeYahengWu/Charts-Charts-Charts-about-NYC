@@ -19,7 +19,9 @@ let chart2 = new Chart(myChart2, {
         },
         legend: {
             display: false
-         }
+         },
+         responsive: true,
+         maintainAspectRatio: true
     }
 });
 
@@ -86,7 +88,9 @@ let chart3 = new Chart(myChart3, {
         title: {
             text: "How Has the Population in Five Boroughs of New York City Changed Over Time?",
             display: true
-        }
+        },
+        responsive: true,
+        maintainAspectRatio: true
     }
 });
 
@@ -109,6 +113,8 @@ let chart1 = new Chart(myChart1, {
         title: {
             text: "New York City Population by Borough in 2020",
             display: true
-        }
+        },
+        responsive: true,
+        maintainAspectRatio: true
     }
 });
